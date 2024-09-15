@@ -56,7 +56,9 @@
             </section>
             <section class="contact-form">
                 <h2>Send Us a Message</h2>
-                <form action="submit_form.php" method="post">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="279f3dce-28de-4244-9244-dcdd0d41ae11">
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
