@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about CodeJourney, your go-to source for IT insights, tutorials, and expert reviews.">
+    <title>About Us</title>
+    <link rel="stylesheet" href="static\style.css">
+</head>
+<body>
+
+    <!-- Header (reuse the existing header if needed) -->
+    <header class="header">
+        <div class="header-container">
+            <a class="logo" href="/">CodeJourney</a>
+            <nav class="nav">
+                <div class="nav-links">
+                    <a href="/">Home</a>
+                    <a href="/blog">Blog</a>
+                    <a href="/about">About</a>
+                    <a href="/contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="about-us-container">
+        <div class="about-us-content">
+            <div class="about-us-image">
+                <img src="{{ url_for('static', filename='About.jpg') }}" alt="CodeJourney">
+            </div>
+            <div class="about-us-header">
+                <h1>CodeJourney</h1>
+            </div>
+            <section class="intro">
+                <p>Welcome to CodeJourney, where our mission is to provide exceptional resources and insights for coding enthusiasts and professionals alike. Our blog is designed to be a comprehensive guide, offering tutorials, tips, and the latest industry news to help you navigate the ever-evolving world of technology.</p>
+                <p>We are committed to making coding accessible and enjoyable for everyone, from beginners to seasoned developers. Our content is carefully crafted to deliver valuable information in a clear and engaging manner.</p>
+            </section>
+            <section class="mission">
+                <h2>Our Mission</h2>
+                <p>At CodeJourney, we believe that learning to code is a transformative journey that opens up endless possibilities. Our goal is to support you throughout this journey by providing high-quality content that inspires, educates, and empowers.</p>
+                <p>We strive to stay ahead of industry trends and deliver content that not only enhances your skills but also keeps you informed about the latest advancements in technology.</p>
+            </section>
+            <section class="values">
+                <h2>Our Values</h2>
+                <p>Integrity, passion, and innovation are at the core of everything we do. We are dedicated to delivering honest, accurate, and up-to-date information, and we are passionate about helping you achieve your coding goals.</p>
+                <p>We value your feedback and encourage you to engage with us. Your input helps us improve and ensures that we continue to provide the best possible resources for our community.</p>
+            </section>
+            <section class="contact">
+                <h2>Get in Touch</h2>
+                <p>We would love to hear from you! If you have any questions, suggestions, or just want to share your thoughts, please reach out to us through our <a href="contact.html">contact page</a>. Follow us on social media to stay updated with our latest posts and join our vibrant community.</p>
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2 class="footer-title">About Us</h2>
+                <p class="footer-text">Welcome to CodeJourney, where we bridge the gap between technology and innovation. Our mission is to provide insightful and timely information on the latest trends, breakthroughs, and challenges in the IT world.</p>
+            </div>
+            <div class="footer-section">
+                <h2 class="footer-title">Quick Links</h2>
+                <ul class="footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2 class="footer-title">Contact Us</h2>
+                <p class="footer-text">100542, India, Gaziabad</p>
+                <p class="footer-text">Email: CodeJourney23@example.com</p>
+                <p class="footer-text">Phone: (+91) 9399554549</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CodeJourney. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
